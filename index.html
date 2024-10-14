@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Merger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PDF Merger Tool</h1>
+        
+        <div id="pdf-upload-container">
+            <label for="pdf1">Upload PDF #1:</label>
+            <input type="file" id="pdf1" name="pdf1" accept="application/pdf">
+        </div>
+        
+        <button id="add-pdf-btn">Add another PDF</button>
+        <button id="merge-btn">Merge PDFs</button>
+        <button id="reset-btn">Reset</button>
+        
+        <div id="result-container">
+            <a id="download-link" style="display: none;">Download Merged PDF</a>
+        </div>
+    </div>
+    
+    <!-- Add the PDF-lib script here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+    
+    <!-- Your custom script -->
+    <script src="app.js"></script>
+</body>
+</html>
