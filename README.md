@@ -1,2 +1,2 @@
-# pdf
-Merge you pdf files
+# PDF for all
+Merge you pdf files for free
